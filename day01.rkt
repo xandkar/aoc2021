@@ -31,7 +31,7 @@
 
   (check-equal? (part-1 data-example) 7)
   (check-equal? (part-1 data-input) 1139)
-  (check-equal? (segment-sums 3 (range 1 11)) '(6 9 12 15 18 21 24 27))
+  (let ([n 3]) (check-equal? (segment-sums n (range 1 11)) (range 6 28 n)))
   (check-equal? (segment-sums 3 data-example) '(607 618 618 617 647 716 769 792))
   (check-equal? (part-2 data-example) 5)
   (check-equal? (part-2 data-input) 1103))

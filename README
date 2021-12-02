@@ -1,1 +1,7 @@
+This year I'm practicing design by contract and TDD, in Racket.
+
 https://adventofcode.com/2021/
+https://en.wikipedia.org/wiki/Design_by_contract
+https://en.wikipedia.org/wiki/Test-driven_development
+https://docs.racket-lang.org/guide/contracts-examples.html
+https://docs.racket-lang.org/rackunit/philosophy.html
